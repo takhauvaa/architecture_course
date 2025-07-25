@@ -1,0 +1,171 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="844" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Пользователь" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Urru3l7k8dlwKI-lamID-9" value="Выбрать подходящий тип тренировки" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="EdJVwixKpk7Js9ilDwfH-2" edge="1">
+          <mxGeometry x="0.3549" relative="1" as="geometry">
+            <mxPoint x="60" y="149.5000000000001" as="sourcePoint" />
+            <mxPoint x="215" y="149.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdJVwixKpk7Js9ilDwfH-7" value="Рекомендовать инвертарь для сконфигурированной тренировки" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.4;exitY=0.576;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="-0.0014" relative="1" as="geometry">
+            <mxPoint x="404.5" y="250" as="sourcePoint" />
+            <mxPoint x="50" y="250" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="Тренировка" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="80" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="Создать тренировку" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="200" as="sourcePoint" />
+            <mxPoint x="100" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Urru3l7k8dlwKI-lamID-7" value="Отобразить форму тренировки" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3nuBFxr9cyL0pnOWT2aG-9" vertex="1" connectable="0">
+          <mxGeometry x="0.0182" y="1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Urru3l7k8dlwKI-lamID-1" value="Товар" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="80" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Urru3l7k8dlwKI-lamID-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="Urru3l7k8dlwKI-lamID-1" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="EdJVwixKpk7Js9ilDwfH-14" value="Получить список доступных товаров" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="Urru3l7k8dlwKI-lamID-1">
+          <mxGeometry x="0.2857" relative="1" as="geometry">
+            <mxPoint x="-70" y="150" as="sourcePoint" />
+            <mxPoint x="70" y="150" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Urru3l7k8dlwKI-lamID-3" value="Заказ" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="80" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Urru3l7k8dlwKI-lamID-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="Urru3l7k8dlwKI-lamID-3" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Urru3l7k8dlwKI-lamID-24" value="Производиться формирование заказа" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="Urru3l7k8dlwKI-lamID-3" edge="1">
+          <mxGeometry x="-0.1513" relative="1" as="geometry">
+            <mxPoint x="-100" y="280" as="sourcePoint" />
+            <mxPoint x="40" y="280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdJVwixKpk7Js9ilDwfH-1" value="&lt;strong&gt;&lt;span style=&quot;font-size:12.0pt;mso-fareast-font-family:&lt;br/&gt;&amp;quot;Times New Roman&amp;quot;;color:#001D35;background:white;mso-ansi-language:RU;&lt;br/&gt;mso-fareast-language:RU;mso-bidi-language:AR-SA;font-weight:normal&quot;&gt;Пользователь формирует тренировку&lt;/span&gt;&lt;/strong&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="20" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EdJVwixKpk7Js9ilDwfH-2" value="Рекомендации" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="80" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="EdJVwixKpk7Js9ilDwfH-3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="EdJVwixKpk7Js9ilDwfH-2">
+          <mxGeometry x="45" y="80" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Urru3l7k8dlwKI-lamID-13" value="Рекомендовать какие тренировки можно выполнить,&#xa; продолжительности, периодичность, период при занятости" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.4;exitY=0.576;exitDx=0;exitDy=0;exitPerimeter=0;" parent="EdJVwixKpk7Js9ilDwfH-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="190" as="sourcePoint" />
+            <mxPoint x="-309.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Urru3l7k8dlwKI-lamID-15" value="Корректировать предложенные &#xa;варианты при необходимости" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="EdJVwixKpk7Js9ilDwfH-2" edge="1">
+          <mxGeometry x="-0.1513" relative="1" as="geometry">
+            <mxPoint x="-275" y="230" as="sourcePoint" />
+            <mxPoint x="-95" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdJVwixKpk7Js9ilDwfH-10" value="·       Пользователь подтверждает &#xa;завершение формирования тренировки" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="EdJVwixKpk7Js9ilDwfH-2">
+          <mxGeometry x="-0.1513" relative="1" as="geometry">
+            <mxPoint x="-305" y="360" as="sourcePoint" />
+            <mxPoint x="-95" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdJVwixKpk7Js9ilDwfH-11" value="·       Тренировка подсвечивается, &#xa;активна кнопка «купить выбранный инвентарь», &#xa;напонимая пользователю о необходимости &#xa;купить инвентарь для выполнения тренировки" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="EdJVwixKpk7Js9ilDwfH-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-95" y="430" as="sourcePoint" />
+            <mxPoint x="-309.5" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdJVwixKpk7Js9ilDwfH-16" value="" style="verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="EdJVwixKpk7Js9ilDwfH-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="190" as="sourcePoint" />
+            <mxPoint x="55" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdJVwixKpk7Js9ilDwfH-17" value="Вернуть список доступных товаров&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EdJVwixKpk7Js9ilDwfH-16">
+          <mxGeometry x="0.0182" y="1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdJVwixKpk7Js9ilDwfH-8" value="Пользователь выбирает инвентарь" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.05;entryY=0.828;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.1513" relative="1" as="geometry">
+            <mxPoint x="89.5" y="360.00000000000006" as="sourcePoint" />
+            <mxPoint x="574.5" y="360.00000000000006" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Urru3l7k8dlwKI-lamID-22" value="" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="600" as="sourcePoint" />
+            <mxPoint x="90" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Urru3l7k8dlwKI-lamID-23" value="Тренировка переход в состояние &quot;активна&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Urru3l7k8dlwKI-lamID-22" vertex="1" connectable="0">
+          <mxGeometry x="0.0182" y="1" relative="1" as="geometry">
+            <mxPoint x="-8" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Urru3l7k8dlwKI-lamID-25" value="" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="301.5" y="400" as="sourcePoint" />
+            <mxPoint x="80" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Urru3l7k8dlwKI-lamID-26" value="Формирование тренировки завершается" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Urru3l7k8dlwKI-lamID-25" vertex="1" connectable="0">
+          <mxGeometry x="0.0182" y="1" relative="1" as="geometry">
+            <mxPoint x="2" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdJVwixKpk7Js9ilDwfH-4" value="" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="Urru3l7k8dlwKI-lamID-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="713" y="390" as="sourcePoint" />
+            <mxPoint x="300" y="393" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdJVwixKpk7Js9ilDwfH-5" value="Заказ создан, ожидает оплаты" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EdJVwixKpk7Js9ilDwfH-4">
+          <mxGeometry x="0.0182" y="1" relative="1" as="geometry">
+            <mxPoint x="-41" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdJVwixKpk7Js9ilDwfH-13" value="Пользователь переводит тренировку &#xa;в активную нажав &#xa;«начать»" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="-0.1513" relative="1" as="geometry">
+            <mxPoint x="100" y="570" as="sourcePoint" />
+            <mxPoint x="310" y="570" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
